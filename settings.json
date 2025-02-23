@@ -93,5 +93,6 @@
         "file:///c:/Users/dhruv/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
     ],
     "workbench.activityBar.location": "hidden",
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "workbench.editor.editorActionsLocation": "titleBar",
 }

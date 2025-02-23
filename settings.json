@@ -1,0 +1,97 @@
+{
+    "workbench.iconTheme": "a-file-icon-vscode",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.mouseWheelZoom": true,
+    "C_Cpp.updateChannel": "Insiders",
+    "C_Cpp.addNodeAddonIncludePaths": true,
+    "explorer.confirmDelete": false,
+    "grunt.autoDetect": "on",
+    "gulp.autoDetect": "on",
+    "jake.autoDetect": "on",
+    "launch": {
+        "configurations": [
+        {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "pwa-extensionHost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+        ]
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.associations": {
+        "*.c": "c"
+    },
+    "workbench.editorAssociations": {
+        "*.exe": "default"
+    },
+    "workbench.editor.empty.hint": "hidden",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "workbench.productIconTheme": "a-file-icon-vscode-product-icon-theme",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "editor.largeFileOptimizations": false,
+    "editor.fontFamily": "'Cascadia Code',Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.layoutControl.enabled": false,
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command"
+    ],
+    "github.copilot.editor.enableAutoCompletions": true,
+    "workbench.colorTheme": "Dracula Theme",
+    "indentRainbow.lightIndicatorStyleLineWidth": 3,
+    "indentRainbow.indicatorStyle": "light",
+    "git.suggestSmartCommit": false,
+    "background.windowBackgrounds": [
+        "/home/nteam/Downloads/wallpaper.jpg"
+    ],
+    "background.editorBackgrounds": [
+        "/home/nteam/Downloads/wallpaper.jpg"
+    ],
+    "workbench.settings.applyToAllProfiles": [
+        "background.editorBackgrounds"
+    ],
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "database-client.autoSync": true,
+    "files.autoSave": "afterDelay",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.startupEditor": "none",
+    "workbench.sideBar.location": "right",
+    "vscode_custom_css.imports": [
+        "file:///c:/Users/dhruv/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+    ],
+    "workbench.activityBar.location": "hidden",
+    "editor.minimap.enabled": false
+}
